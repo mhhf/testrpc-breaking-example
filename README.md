@@ -5,7 +5,7 @@
 npm i
 node deploy.js
 ```
-Should return `true`, tested on `morden`
+Expected to return `true`, successfully tested on `morden`
 
 Observed Behaviour of testrpc 2.0.1:
 ```
@@ -34,6 +34,9 @@ Unhandled rejection Error: Error: VM Exception while executing eth_call: invalid
 ```
 
 ### System stats:
-`OS X 10.10.5 (14F1605)`
-`testrpc 2.0.1 - d5efa9a`
-`node v5.8.0`
+```
+OS X 10.10.5 (14F1605)
+testrpc 2.0.1 - d5efa9a
+node v5.8.0
+solc 0.3.1-c492d9be
+```
